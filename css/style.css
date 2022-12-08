@@ -227,7 +227,8 @@ ul {
 
 /* hero */
 .hero-section {
-  background: var(--header-footer-bg);
+  background-color: var(--header-footer-bg);
+  background-image: url("images/hero-bg.jpg");
   display: flex;
   justify-content: center;
   padding: 200px 0;
@@ -329,8 +330,13 @@ ul {
 }
 
 /* header icons */
-.contacts-header-icon {
+.contacts-header-icon-envelope {
   margin-right: 10px;
+  vertical-align:-1px;
+}
+.contacts-header-icon-smartphone {
+  margin-right: 10px;
+  vertical-align:-3px;
 }
 
 /* lorem ipsum icons */
