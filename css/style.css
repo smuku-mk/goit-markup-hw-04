@@ -144,11 +144,13 @@ ul {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  margin-bottom: 10px;
 }
 .lorem-ipsum-text {
   color: var(--text-color);
   font-size: 14px;
   line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 /* section our team and what we do */
@@ -314,4 +316,10 @@ ul {
   border-style: solid;
   border-color: var(--pictures-figcaption-border-color);
   padding: 20px 24px;
+}
+
+/* lorem ipsum icons */
+.lorem-ipsum-list > li > svg {
+  background-color: #F5F4FA;
+  margin-bottom: 30px;
 }
