@@ -73,10 +73,7 @@ ul {
 .contacts-header:focus,
 .contacts-header:hover {
   color: var(--brand-color);
-  fill: var(--brand-color);
-}
-.contacts-header-icon {
-  margin-right: 10px;
+  --color1: var(--brand-color);
 }
 .contacts-footer {
   text-decoration: none;
@@ -319,11 +316,17 @@ ul {
   padding: 20px 24px;
 }
 
+/* header icons */
+.contacts-header-icon {
+  margin-right: 10px;
+}
+
 /* lorem ipsum icons */
 .lorem-ipsum-list > li > svg {
   background-color: #F5F4FA;
   margin-bottom: 30px;
 }
+
 /* our team icons */
 .our-team-icons {
   display: flex;
@@ -332,9 +335,10 @@ ul {
   align-items: center;
 }
 .our-team-icons > a > svg:hover {
+  --color2: var(--white-color);
   background-color: var(--brand-color);
   border-radius: 50%;
 }
 .asd {
-  fill: #2196f3;
+  --color2: blue;
 }
