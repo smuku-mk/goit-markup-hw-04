@@ -73,6 +73,10 @@ ul {
 .contacts-header:focus,
 .contacts-header:hover {
   color: var(--brand-color);
+  fill: var(--brand-color);
+}
+.contacts-header-icon {
+  margin-right: 10px;
 }
 .contacts-footer {
   text-decoration: none;
