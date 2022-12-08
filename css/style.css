@@ -9,6 +9,7 @@
   --our-team-bg: #f5f4fa;
   --header-footer-bg: #2f303a;
   --pictures-figcaption-border-color: #eeeeee;
+  --join-us-links-bg: rgba(255, 255, 255, 0.1);
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -59,6 +60,9 @@ ul {
   color: var(--brand-color);
 }
 .nav-portfolio {
+  color: var(--brand-color);
+}
+.nav-agency {
   color: var(--brand-color);
 }
 
@@ -279,6 +283,8 @@ ul {
   background-color: var(--header-footer-bg);
 }
 .footer-content {
+  display: flex;
+  gap: 70px;
   padding: 60px 0;
 }
 .footer-address {
@@ -339,6 +345,45 @@ ul {
   background-color: var(--brand-color);
   border-radius: 50%;
 }
-.asd {
-  --color2: blue;
+
+/* our customers */
+.our-customers-list {
+  display: flex;
+  gap: 30px;
+}
+.our-customers-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.our-customers-list > li > a > svg {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+}
+.our-customers-list > li > a:hover {
+  --color2: var(--brand-color);
+}
+.our-customers-list > li > a > svg:hover {
+  border-color: var(--brand-color);
+}
+.join-us-container {
+  margin-top: 12px;
+}
+.join-us {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white-color);
+  margin-bottom: 20px;
+}
+.join-us-links {
+  background-color: var(--join-us-links-bg);
+  --color2: var(--white-color);
+  border-radius: 50%;
+}
+.join-us-links:hover {
+  background-color: var(--brand-color)
 }
