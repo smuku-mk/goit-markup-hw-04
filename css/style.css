@@ -228,7 +228,14 @@ ul {
 /* hero */
 .hero-section {
   background-color: var(--header-footer-bg);
-  background-image: url("images/hero-bg.jpg");
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/hero-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
   display: flex;
   justify-content: center;
   padding: 200px 0;
@@ -332,11 +339,11 @@ ul {
 /* header icons */
 .contacts-header-icon-envelope {
   margin-right: 10px;
-  vertical-align:-1px;
+  vertical-align: -1px;
 }
 .contacts-header-icon-smartphone {
   margin-right: 10px;
-  vertical-align:-3px;
+  vertical-align: -2px;
 }
 
 /* lorem ipsum icons */
